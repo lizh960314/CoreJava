@@ -8,6 +8,6 @@ public class ObjectAnalyzerTest {
         for (int i = 1; i < 5; i++) {
             squares.add(i * i);
         }
-        System.out.println();
+        System.out.println(new ObjectAnalyzer().toString(squares));
     }
 }
